@@ -1,0 +1,90 @@
+body {
+    cursor: url(kursor.png), auto;
+}
+
+button:hover {
+    cursor: url(kursor.png), pointer;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.kandidat123 {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.tengah{
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.logo-lss{
+    aspect-ratio: 1/1 ;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html{
+    background: linear-gradient(180deg,rgba(0, 121, 219, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.kandidat-osis {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  text-align: center;
+  border: 10px solid #00b0c0;
+  border-radius: 8px;
+  background-color: #00b0c0;
+  color : white;
+  margin-bottom: -10px;
+}
+
+.kandidat-osis img {
+    aspect-ratio: 1/1 ;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.belah3 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+    margin-bottom: 30px;
+}
+
+.vote-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+.vote-button {
+    padding: 10px 20px;
+    background-color: #0079DB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}

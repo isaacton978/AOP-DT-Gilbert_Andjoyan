@@ -1,0 +1,65 @@
+html{
+    background: linear-gradient(180deg,rgba(0, 121, 219, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+body {
+    cursor: url(kursor.png), auto;
+}
+
+.kelompok-untuk-form-pengisian {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: 100px auto;
+    text-align: left;
+    margin-bottom: 365px;
+    margin-top: 150px;
+}
+
+.kelompok-untuk-form-pengisian img {
+    aspect-ratio: 1/1 ;
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+
+}
+
+.kelompok-untuk-form-pengisian h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kelompok-untuk-form-pengisian label {
+    display: block;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.kelompok-untuk-form-pengisian input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.kelompok-untuk-form-pengisian button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(103, 103, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*yang mengerjakan bagian ini adalah Felissa dan Irene

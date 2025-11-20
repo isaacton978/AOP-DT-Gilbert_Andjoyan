@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background: linear-gradient(0deg, #52ff94 0%, #0a5408 50%, #52ff94 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: url(kursor.png), auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.LOGO {
+    width: 55px;
+    margin-right: 20px;
+}
+.header-title {
+  font-weight: bold;
+  color: #000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+
+.logo-sanlau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+
+.kumpulan-kartu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.kumpulan-kartu img {
+  width: 300px;
+  height: auto;
+  aspect-ratio: 1/1 ;
+}
+
+.foto-ganteng {
+  width: 300px;
+  height: auto;
+  aspect-ratio: 1/1 ;
+}
+
+
+.kartu-musik-dan-foto {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  text-align: center;
+  border: 10px solid #ffffff;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.kesan-pesan {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.judul-disko {
+    background-image: 
+    linear-gradient(
+      to right, 
+      #ff0000, 
+      #ff8000,
+      #ffff00,
+      #00ff00,
+      #00bbff,
+      #0000ff,
+      #f41fff,
+      #ff004c);
+
+      
+      -webkit-background-clip: text;
+      background-clip: text;
+      color : transparent ;
+      background-size: 200%;
+      animation: DISKO 2s steps(8) infinite;
+      animation: DISKO 2s linear infinite;
+      animation: DISKO 2s ease infinite
+
+}
+
+@keyframes DISKO {
+  to {
+    background-position: 0%;
+  }
+
+  to {
+    background-position: 200%;
+  }
+}
+
+/*yang mengerjakan bagian ini adalah Gilbert
